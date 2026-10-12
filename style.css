@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(231, 215, 230);
+  /* Use a system font, if none are available use an available sans-sarif */
+  font-family: system-ui, sans-serif;
+  margin: 0;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 325px;
+}
+
+.sqr {
+  width: 30%;
+  aspect-ratio: 1/1;
+  border: 3px solid rgb(114, 73, 100);
+  font-size: 64px;
+  text-align: center;
+}
+
+#reset {
+  background-color: #6e4f61;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin-top: 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+#reset:hover {
+  background-color: #966992;
+  transform: translateY(-2px);
+}
+
+h1{
+    color: #966992;
+    text-align: center;
+}
+
+h2{
+    color: #70496d;
+    text-align: center;
+}
